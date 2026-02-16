@@ -1,0 +1,31 @@
+site_name: Enlight™ Documentation by Ironwood Cyber
+nav:
+  - Home: index.md
+  - About: about.md
+  - Getting Started: introduction.md
+  - Tutorials: tutorials.md
+  - How To Guides: how-to-guides.md
+  - Explanation: explanation.md
+theme:  
+  favicon: img/ironwood-cyber-icon-favicon.png
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+   # Palette toggle for light mode
+    - scheme: default
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+  language: en
+  logo: img/ironwood-logo-transparent.png
+  features:
+    - navigation.footer
