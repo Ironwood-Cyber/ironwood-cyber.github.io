@@ -19,20 +19,20 @@ To get started, create your account on our platform:
 
 ## 2. Request a License or Trial
 
-Our platform requires an active license to begin running penetration tests or accessing advanced features. You can try out Enlight™  with the interactive demo environment, however, you will be unable to run assessments for your own systems until you have a license.
+Our platform requires an active license to begin running penetration tests or accessing advanced features. You can try out Enlight™ with the interactive demo environment, however, you will be unable to run assessments for your own systems until you have a license.
 
 ### How to Request Access
 You can request a trial license or full subscription:
 
 - **Contact [sales](https://ironwoodcyber.com/contact)**
 - **Request a license from the dashboard** (COMING SOON)
-- **Through your managed service provider** 
+- **Through your managed service provider**
 
 When contacting us, please include:
 
-- Your company name  
-- Number of assets or projects you plan to assess   
-- Preferred start date  
+- Your company name
+- Number of assets or projects you plan to assess
+- Preferred start date
 
 A member of our team will review your request and help activate the right plan.
 
@@ -44,12 +44,26 @@ You can create an organization before a license is setup. To do so, click on the
 
 Once your license is active, activate your organization:
 
-1. Go to **Interactive Demo Organization → Create Organization**  
+1. Go to **Interactive Demo Organization → Create Organization**
 2. Enter an organization name
 3. Enter your name or an authorized person of contact
 5. Create your organization
 
 You can manage your organization and join others at any time.
+
+---
+
+## 4. Set Up Your Configuration
+
+Before running an assessment, you need a configuration that tells Enlight™ how and where to test.
+
+1. Go to **Configure** in the left sidebar
+2. Click **Create Configuration** and give it a name
+3. Set your preferred exploitation level using the slider
+4. Add at least one **Seed Element** — a domain, IP address, or subnet you want assessed
+5. If running an internal scan, attach a **Sentry Agent** to the config
+
+> **Not sure what these mean?** Check out the [How-To Guides](how-to-guides.md) for step-by-step setup instructions, or the [Concepts](explanation.md) page to understand how they work together.
 
 ---
 
@@ -61,11 +75,11 @@ Click [here](tutorials.md) for a tutorial on running your first assessment.
 
 ## 6. Review Findings
 
-Enlight™  will start to kick off and find points of risk or information in the seed elements provided. As vulnerabilities are discovered, you can:
+Enlight™ will start to kick off and find points of risk or information in the seed elements provided. As vulnerabilities are discovered, you can:
 
-- View findings in real time  
-- Filter by severity, category, or status  
-- Export results 
+- View findings in real time
+- Filter by severity, category, or status
+- Export results
 
 
 ---
@@ -74,10 +88,10 @@ Enlight™  will start to kick off and find points of risk or information in the
 
 To collaborate effectively:
 
-1. Go to the organization tab and click **→ Manage Organization**  
+1. Go to the organization tab and click **→ Manage Organization**
 2. Click on the invitations tab
 3. Click on **Invite Member**
-4. Manage permissions per project or workspace  
+4. Manage permissions per project or workspace
 
 Inviting your team early helps ensure the right people see the right issues.
 
@@ -85,9 +99,9 @@ Inviting your team early helps ensure the right people see the right issues.
 
 ## 8. Join another organization
 
-To join another organization, an organization admin will generate an invite code for you. 
+To join another organization, an organization admin will generate an invite code for you.
 
-1. Go to the organization tab and click **→ Join Organization**  
+1. Go to the organization tab and click **→ Join Organization**
 2. Insert the invite code
 
 ---
@@ -96,5 +110,4 @@ To join another organization, an organization admin will generate an invite code
 
 Our team is available to support you throughout onboarding.
 
-If you’re not sure where to start, just [reach out](https://ironwoodcyber.com/contact) — we’re here to help.
-
+If you're not sure where to start, just [reach out](https://ironwoodcyber.com/contact) — we're here to help.
