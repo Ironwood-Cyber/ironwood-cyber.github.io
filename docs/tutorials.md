@@ -45,14 +45,35 @@ Before starting, make sure you have:
 
 ---
 
+### Step 4: Monitor the Assessment
+
+Once the assessment is running, you can track its progress in real time:
+
+1. Navigate to the **Assessments** tab in the sidebar.
+2. Your active assessment will appear at the top of the table with a running status indicator.
+3. As findings are discovered, they will populate in real time — you do not need to wait for the assessment to complete to begin reviewing them.
+
+---
+
+### Step 5: Wait for Completion
+
+The assessment will run autonomously until it has exhausted the configured scope.
+
+- You will see the status update from **Running** to **Completed** in the Assessments table.
+- You can leave the platform and return — the engine continues running in the background.
+- Optionally, you can stop an assessment early from the Assessments table if needed.
+
+---
 
 ### Step 6: Reviewing Results
 
-1. Once the test is complete, navigate to the side bar **Assessments**.  
-2. Your most recent assessments and historical assessments will be available in a table. You can navigate to the document icon for the reports.
-3. Download reports in PDF format.  
-4. Review findings, recommendations, and severity levels.  
+1. Once the test is complete, navigate to the sidebar **Assessments**.
+2. Your most recent and historical assessments will be available in a table. Click the document icon to access the report.
+3. Download reports in PDF format.
+4. Review findings, recommendations, and severity levels.
 5. Take action based on the prioritized issues.
+
+> **Tip:** Use **Enlight™ Amplify** to explore findings interactively — browse discovered assets and trace every action the engine ran during the assessment. See the [Concepts](explanation.md/#enlight-amplify) page for more.
 
 ---
 

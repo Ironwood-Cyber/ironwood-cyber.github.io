@@ -31,17 +31,13 @@ Our platform was designed to eliminate these pain points and help organizations 
 
 ## Get in Touch
 
-- Support email  
-- Slack/Discord community  
-- Contact form  
+- **Contact form:** [ironwoodcyber.com/contact](https://ironwoodcyber.com/contact)
 
 
 ---
 
-## What’s Next
+## What's Next
 
 - Platform stability improvements
-- Automating Active Directory attacks (ASP-roasting, kerberoasting, etc)
-- Distributed hashcracking abilities with found credentials
-- Enlight™  Amplify (terminal based shell for pentesters)  
+- Distributed hashcracking with found credentials
 

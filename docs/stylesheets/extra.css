@@ -1,0 +1,396 @@
+/* ============================================================
+   Ironwood Cyber — Enlight™ Documentation Custom Styles
+   Brand color: #7AFBF7 (IWC Cyan)
+   ============================================================ */
+
+/* ---------- Google Font Import ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ---------- CSS Variables ---------- */
+:root {
+  --iwc-cyan: #7AFBF7;
+  --iwc-cyan-dim: #4ee8e4;
+  --iwc-cyan-glow: rgba(122, 251, 247, 0.15);
+  --iwc-black: #0d0f10;
+  --iwc-header-bg: #0d1117;
+  --iwc-nav-bg: #111418;
+}
+
+/* ============================================================
+   HEADER — dark near-black with IWC cyan logo area
+   ============================================================ */
+.md-header {
+  background-color: var(--iwc-header-bg) !important;
+  box-shadow: 0 1px 0 rgba(122, 251, 247, 0.2), 0 2px 12px rgba(0,0,0,0.4);
+}
+
+.md-header__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff !important;
+}
+
+/* Site name text color */
+.md-header__topic .md-ellipsis {
+  color: #ffffff !important;
+}
+
+/* Logo sizing */
+.md-header__button.md-logo img {
+  height: 32px;
+  width: auto;
+}
+
+/* Search bar */
+.md-search__form {
+  background-color: rgba(255,255,255,0.08) !important;
+  border: 1px solid rgba(122, 251, 247, 0.2);
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+}
+
+.md-search__form:focus-within {
+  border-color: var(--iwc-cyan) !important;
+  background-color: rgba(255,255,255,0.12) !important;
+}
+
+.md-search__input {
+  color: #ffffff !important;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255,255,255,0.45) !important;
+}
+
+/* Header icons (search, palette toggle) */
+.md-header__button {
+  color: rgba(255,255,255,0.75) !important;
+  transition: color 0.2s ease;
+}
+
+.md-header__button:hover {
+  color: var(--iwc-cyan) !important;
+}
+
+/* ============================================================
+   NAV TABS — dark underline style
+   ============================================================ */
+.md-tabs {
+  background-color: var(--iwc-header-bg) !important;
+  border-bottom: 1px solid rgba(122, 251, 247, 0.15);
+}
+
+.md-tabs__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6) !important;
+  transition: color 0.2s ease;
+  opacity: 1 !important;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--iwc-cyan) !important;
+}
+
+.md-tabs__indicator {
+  background-color: var(--iwc-cyan) !important;
+  height: 2px;
+}
+
+/* ============================================================
+   SIDEBAR — light mode
+   ============================================================ */
+[data-md-color-scheme="default"] .md-sidebar {
+  background-color: #f8f9fa;
+}
+
+[data-md-color-scheme="default"] .md-nav__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #888 !important;
+}
+
+[data-md-color-scheme="default"] .md-nav__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  color: #444 !important;
+  transition: color 0.15s ease, padding-left 0.15s ease;
+}
+
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  color: var(--iwc-cyan-dim) !important;
+}
+
+[data-md-color-scheme="default"] .md-nav__link--active {
+  color: var(--iwc-cyan-dim) !important;
+  font-weight: 600;
+  border-left: 2px solid var(--iwc-cyan-dim);
+  padding-left: 10px;
+}
+
+/* ============================================================
+   SIDEBAR — dark mode
+   ============================================================ */
+[data-md-color-scheme="slate"] .md-sidebar {
+  background-color: #141920;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: rgba(255,255,255,0.65) !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  transition: color 0.15s ease;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: var(--iwc-cyan) !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: var(--iwc-cyan) !important;
+  font-weight: 600;
+  border-left: 2px solid var(--iwc-cyan);
+  padding-left: 10px;
+}
+
+/* ============================================================
+   MAIN CONTENT TYPOGRAPHY
+   ============================================================ */
+.md-content {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.md-typeset {
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+
+/* Headings */
+.md-typeset h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--iwc-cyan);
+}
+
+.md-typeset h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  margin-top: 2em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid rgba(122, 251, 247, 0.25);
+}
+
+.md-typeset h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 1.6em;
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--iwc-cyan-dim) !important;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.md-typeset a:hover {
+  border-bottom-color: var(--iwc-cyan-dim);
+}
+
+/* ============================================================
+   ADMONITIONS / CALLOUT BLOCKS (tips, notes, warnings)
+   ============================================================ */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  border-left-width: 4px;
+  font-size: 0.875rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: rgba(122, 251, 247, 0.1) !important;
+}
+
+.md-typeset .note {
+  border-left-color: var(--iwc-cyan) !important;
+}
+
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(122, 251, 247, 0.08) !important;
+}
+
+.md-typeset .tip {
+  border-left-color: var(--iwc-cyan-dim) !important;
+}
+
+/* ============================================================
+   BLOCKQUOTES (used for tips/recommendations in the docs)
+   ============================================================ */
+.md-typeset blockquote {
+  border-left: 4px solid var(--iwc-cyan);
+  background-color: var(--iwc-cyan-glow);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75em 1em;
+  margin: 1.2em 0;
+  font-size: 0.875rem;
+}
+
+[data-md-color-scheme="default"] .md-typeset blockquote {
+  background-color: rgba(122, 251, 247, 0.07);
+  color: #333;
+}
+
+.md-typeset blockquote p {
+  margin: 0;
+}
+
+/* ============================================================
+   CODE BLOCKS
+   ============================================================ */
+.md-typeset code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82em;
+  background-color: rgba(122, 251, 247, 0.1);
+  border: 1px solid rgba(122, 251, 247, 0.2);
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+}
+
+.md-typeset pre > code {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.md-typeset pre {
+  border-radius: 8px;
+  border: 1px solid rgba(122, 251, 247, 0.15);
+}
+
+/* ============================================================
+   NUMBERED / ORDERED LISTS — step styling
+   ============================================================ */
+.md-typeset ol li {
+  padding-left: 0.25em;
+  margin-bottom: 0.4em;
+}
+
+.md-typeset ol li::marker {
+  color: var(--iwc-cyan-dim);
+  font-weight: 700;
+}
+
+/* ============================================================
+   HORIZONTAL RULES
+   ============================================================ */
+.md-typeset hr {
+  border-color: rgba(122, 251, 247, 0.2);
+  margin: 2em 0;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.md-footer {
+  background-color: var(--iwc-header-bg) !important;
+  border-top: 1px solid rgba(122, 251, 247, 0.15);
+}
+
+.md-footer-meta {
+  background-color: var(--iwc-black) !important;
+}
+
+.md-footer__link .md-footer__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+/* ============================================================
+   BACK TO TOP BUTTON
+   ============================================================ */
+.md-top {
+  background-color: var(--iwc-header-bg) !important;
+  color: var(--iwc-cyan) !important;
+  border: 1px solid rgba(122, 251, 247, 0.3);
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.md-top:hover {
+  background-color: var(--iwc-cyan-glow) !important;
+  border-color: var(--iwc-cyan);
+}
+
+/* ============================================================
+   TABLE OF CONTENTS
+   ============================================================ */
+.md-nav--secondary .md-nav__link--active {
+  color: var(--iwc-cyan-dim) !important;
+  font-weight: 600;
+}
+
+.md-nav--secondary .md-nav__link:hover {
+  color: var(--iwc-cyan-dim) !important;
+}
+
+/* ============================================================
+   DARK MODE CONTENT AREA
+   ============================================================ */
+[data-md-color-scheme="slate"] .md-main {
+  background-color: #0f1318;
+}
+
+[data-md-color-scheme="slate"] .md-content__inner {
+  color: rgba(255,255,255,0.87);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3 {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: rgba(122, 251, 247, 0.08);
+  color: var(--iwc-cyan);
+}
+
+/* ============================================================
+   SEARCH RESULTS
+   ============================================================ */
+.md-search-result__meta {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+}
+
+.md-search-result__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+mark {
+  background-color: rgba(122, 251, 247, 0.3) !important;
+  color: inherit !important;
+  border-radius: 2px;
+}

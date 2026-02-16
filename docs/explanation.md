@@ -1,13 +1,15 @@
-# Understanding Configurations, Seed Elements, and Sentry Setup
+# Understanding Enlight™ — Core Concepts
 
-This page explains the concepts behind configurations, seed elements, scope definitions, and the setup process used within the platform. 
+This page explains the core concepts behind how Enlight™ works — configurations, seed elements, Sentry agents, and Amplify.
 
 If you’ve already read the how-to guide, this page helps you understand *why* those steps exist and how they fit together.
 
 ---
 
 
-That Enlight™  model is shaped by two core concepts:
+Enlight™ is built around a simple but powerful model: give the engine the right context, and it will autonomously map your attack surface, identify vulnerabilities, and simulate real adversarial behavior.
+
+That model is shaped by two core concepts:
 
 1. **Configurations** – How you want Enlight™  to run an assessment 
 2. **Seed elements** – The starting element that Enlight™  uses to start performing assessments
@@ -102,6 +104,24 @@ Sentry agents are created by Ironwood Cyber to facilitate secure internal assess
 
 External perimeter assessments are nice, but you can only truly understand your attack surface with an internal overview. Sentry helps accomplish this.
 
+
+## Enlight™ Amplify
+
+Amplify is a web-based IDE view built into the platform that gives you a live, interactive window into an assessment as it runs.
+
+Rather than waiting for a final report, Amplify lets you:
+
+- **Browse discovered assets** — see every host, domain, IP, and credential the engine has found, organized as it maps the environment
+- **Trace actions run** — inspect the specific actions and techniques Enlight™ executed against each asset, giving you full visibility into the engine's reasoning
+- **Understand findings in context** — see not just *what* was found, but *how* it was reached and *what* was done to confirm it
+
+**Why this matters:**
+
+Traditional penetration test reports give you a snapshot at the end. Amplify gives you a live, transparent view of the engine's work — so you can follow along, validate findings in real time, and understand the attack surface as it's being mapped.
+
+It's the difference between receiving a report and watching the work happen.
+
+---
 
 ## How These Components Work Together
 

@@ -1,12 +1,8 @@
 # Welcome to Ironwood Cyber Enlight™ 
 
-Enlight™  is provided by Ironwood Cyber for fully autonomous offensive cyber assessments. Enlight™  provides a tool that pentesters can use to harness a custom autonomous engine to accelerate their engagements or for businesses of any size to confidently assess their systems, with the transparency of experts behind the scenes.
+Enlight™ is Ironwood Cyber's fully autonomous offensive cyber assessment platform. Whether you're a pentester looking to accelerate engagements or a business assessing your own systems, Enlight™ gives you expert-level security testing with full transparency.
 
-This documentation will be used to provide information on how a user can run Enlight™ .
-
-To help you operate securely, our docs serve to provide you resources to get started.
-
-Documentation will also be updated as new features/changes are introduced to Enlight™ .
+This documentation covers everything you need to get started, run assessments, and understand how the platform works. It will be updated as new features are introduced.
  
 ## Enlight™  Documentation Structure
 
@@ -33,11 +29,7 @@ Short, goal-oriented instructions that show you exactly how to accomplish practi
 
 These guides are short, direct, and designed to solve real-world tasks efficiently.
 
-### Technical Reference - Integrate into your platform
-
-API's are not yet available.
-
-### Explanation — Concepts, Design, and Deep Understanding  
+### Concepts — Design and Deep Understanding
 
 Background and conceptual material that clarifies *why* things work the way they do:  
 
@@ -45,7 +37,7 @@ Background and conceptual material that clarifies *why* things work the way they
 - How our assessment engine maps real attack surfaces  
 - The philosophy behind continuous penetration testing  
 
-Explanations help teams make informed security decisions, not just follow steps.
+Concepts help teams make informed security decisions, not just follow steps.
 
 ---
 

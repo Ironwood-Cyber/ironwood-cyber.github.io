@@ -53,6 +53,20 @@ You can manage your organization and join others at any time.
 
 ---
 
+## 4. Set Up Your Configuration
+
+Before running an assessment, you need a configuration that tells Enlight™ how and where to test.
+
+1. Go to **Configure** in the left sidebar
+2. Click **Create Configuration** and give it a name
+3. Set your preferred exploitation level using the slider
+4. Add at least one **Seed Element** — a domain, IP address, or subnet you want assessed
+5. If running an internal scan, attach a **Sentry Agent** to the config
+
+> **Not sure what these mean?** Check out the [How-To Guides](how-to-guides.md) for step-by-step setup instructions, or the [Concepts](explanation.md) page to understand how they work together.
+
+---
+
 ## 5. Run Your First Assessment
 
 Click [here](tutorials.md) for a tutorial on running your first assessment.
